@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url(zxd.jpg);
+			background-size: 100%;
+
+		}
+		.container {
+            
+			max-width: 500px;
+			margin-top: 150px;
+			margin-left: 380px;
+			padding : 20px;
+			background-color: #fff;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border:4px solid greenyellow;
+			background-color:blanchedalmond
+		}
+		h2 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 3px;
+			background-color: #f4f4f4;
+			font-size: 16px;
+			color: #555;
+		}
+		input[type="submit"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 3px;
+			background-color: #4CAF50;
+			font-size: 16px;
+			color: #fff;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		#v{
+			color: blueviolet;
+			font-family:Georgia, 'Times New Roman', Times, serif;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Login</h2>
+		<form method="POST">
+
+			<label for="username" id="v">Reg_no</label>
+			<input type="text" id="reg_no" name="reg_no" required>
+
+			<label for="password" id="v">Password</label>
+			 <input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Login" formaction="login.php">
+		</form>
+	</div>
+</body>
+</html>

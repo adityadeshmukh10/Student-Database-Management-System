@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <p style="background-image: url('front.jpeg');"> -->
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #a98282;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <h1 id="cv">PROFILE</h1>
+</div>
+
+<div style="padding-left:16px">
+  <!-- <h2>Top Navigation Example</h2> -->
+  <!-- <p>Some content..</p> -->
+</div>
+
+<style>
+body{
+    background-image: url('pro.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+#cv{
+  color: burlywood;
+  margin-left: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+</style>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial;
+          /* background-image: url(zxd.jpg); */
+        }
+        
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          background-color: rgb(184, 234, 255);
+        }
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: #04AA6D;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: black;
+        }
+        
+        div.container {
+          border-radius: 5px;
+          padding: 20px;
+        }
+        #a{
+          font-family: cursive;
+          color: crimson;
+          font-weight: bold;
+        }
+        #m{
+          display: block;
+          color: red;
+        }
+        #dob{
+          display: block;
+          margin-bottom: 20px;
+          margin-top: 5px;
+        }
+        #qe{
+          padding-left: 30px;
+          color: blueviolet;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        </style>
+        <body>
+        
+        <!-- <h3>Stacked Form</h3> -->
+        <h1 id="qe">Fill your details :</h1>
+        
+        <div class="container">
+          <form action="profreg.php" method="POST">
+            <label for="fname" id="a">First Name:</label>
+            <input type="text" id="fname" name="name" placeholder="Your name..">
+        
+            <label for="lname"id="a">Surname :</label>
+            <input type="text" id="lname" name="surname" placeholder="Your last name..">
+        
+            <label for="roll_no"id="a">Roll no :</label>
+            <input type="text" id="roll_no" name="roll_no" placeholder="Roll no">
+
+            <label for="branch"id="a">Branch :</label>
+            <select name="branch" id="branch">
+                <option value="IT">IT</option>
+                <option value="comp">comp</option>
+                <option value="entc">entc</option>
+            </select>
+            <label for="year"id="a">Year:</label>
+            <select name="year" id="year">
+                <option value="1st">1st Year</option>
+                <option value="2nd">2nd Year</option>
+                <option value="3rd">3rd Year</option>
+                <option value="4rth">4th Year</option>
+            </select>
+            <label for="Date-of-birth" id="m">Birth Year : </label>
+            <input type="date" id="dob" name="dob" placeholder="mention your Date-of-birth">
+          
+            <label for="fe_cgpa" id="a">First year CGPA :</label>
+            <input type="text" id="fe_cgpa" name="fe_cgpa" placeholder="cgpa">
+
+            
+
+        
+            <label for="se_cgpa"id="a">Second Year CGPA :</label>
+            <input type="text" id="se_cgpa" name="se_cgpa" placeholder="cgpa">
+
+            
+
+        
+            <label for="te_cgpa"id="a">Third year CGPA :</label>
+            <input type="text" id="te_cgpa" name="te_cgpa" placeholder="cgpa">
+
+            
+
+      
+            <label for="be_cgpa"id="a">Fourth year CGPA :</label>
+            <input type="text" id="be_cgpa" name="be_cgpa" placeholder="cgpa">
+
+           
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+
+
+</body>
+</html>
